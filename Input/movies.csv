@@ -1,0 +1,251 @@
+MovieID,Title,Year,Genre
+1,The Shawshank Redemption,1994,Drama
+2,The Godfather,1972,Drama|Crime
+3,The Dark Knight,2008,Drama|Crime|Action
+4,The Godfather Part II,1974,Drama|Crime
+5,12 Angry Men,1957,Drama|Crime
+6,Schindler's List,1993,History|Drama|Biography
+7,The Lord of the Rings: The Return of the King,2003,Drama|Adventure|Action
+8,Pulp Fiction,1994,Drama|Crime
+9,The Lord of the Rings: The Fellowship of the Ring,2001,Drama|Adventure|Action
+10,"Il buono, il brutto, il cattivo",1966,Western|Adventure
+11,Forrest Gump,1994,Romance|Drama
+12,Fight Club,1999,Drama
+13,Inception,2010,Sci-Fi|Adventure|Action
+14,The Lord of the Rings: The Two Towers,2002,Drama|Adventure|Action
+15,The Empire Strikes Back,1980,Fantasy|Adventure|Action
+16,The Matrix,1999,Sci-Fi|Action
+17,Goodfellas,1990,Drama|Crime|Biography
+18,One Flew Over the Cuckoo's Nest,1975,Drama
+19,Se7en,1995,Mystery|Drama|Crime
+20,Shichinin no samurai,1954,Drama|Action
+21,It's a Wonderful Life,1946,Fantasy|Family|Drama
+22,The Silence of the Lambs,1991,Thriller|Drama|Crime
+23,Cidade de Deus,2002,Drama|Crime
+24,Saving Private Ryan,1998,War|Drama
+25,La vita  bella,1997,Romance|Drama|Comedy
+26,The Green Mile,1999,Fantasy|Drama|Crime
+27,Interstellar,2014,Sci-Fi|Drama|Adventure
+28,Star Wars,1977,Fantasy|Adventure|Action
+29,Terminator 2: Judgment Day,1991,Sci-Fi|Action
+30,Back to the Future,1985,Sci-Fi|Comedy|Adventure
+31,Sen to Chihiro no kamikakushi,2001,Family|Adventure|Animation
+32,Psycho,1960,Thriller|Mystery|Horror
+33,The Pianist,2002,Music|Drama|Biography
+34,Lon,1994,Drama|Crime|Action
+35,Gisaengchung,2019,Thriller|Drama|Comedy
+36,The Lion King,1994,Drama|Adventure|Animation
+37,Gladiator,2000,Drama|Adventure|Action
+38,American History X,1998,Drama|Crime
+39,The Usual Suspects,1995,Mystery|Drama|Crime
+40,The Departed,2006,Thriller|Drama|Crime
+41,The Prestige,2006,Sci-Fi|Mystery|Drama
+42,Casablanca,1942,War|Romance|Drama
+43,Whiplash,2014,Music|Drama
+44,The Intouchables,2011,Drama|Comedy|Biography
+45,Top Gun: Maverick,2022,Drama|Action
+46,Modern Times,1936,Romance|Drama|Comedy
+47,Seppuku,1962,Mystery|Drama|Action
+48,Hotaru no haka,1988,War|Drama|Animation
+49,Once Upon a Time in the West,1968,Western
+50,Rear Window,1954,Thriller|Mystery
+51,Alien,1979,Sci-Fi|Horror
+52,City Lights,1931,Romance|Drama|Comedy
+53,Nuovo Cinema Paradiso,1988,Romance|Drama
+54,Memento,2000,Thriller|Mystery
+55,Apocalypse Now,1979,War|Mystery|Drama
+56,Raiders of the Lost Ark,1981,Adventure|Action
+57,Django Unchained,2012,Western|Drama
+58,WALLE,2008,Family|Adventure|Animation
+59,The Lives of Others,2006,Thriller|Mystery|Drama
+60,Sunset Blvd.,1950,Film-Noir|Drama
+61,Paths of Glory,1957,War|Drama
+62,The Shining,1980,Horror|Drama
+63,The Great Dictator,1940,War|Drama|Comedy
+64,Witness for the Prosecution,1957,Mystery|Drama|Crime
+65,Avengers: Infinity War,2018,Sci-Fi|Adventure|Action
+66,Aliens,1986,Sci-Fi|Adventure|Action
+67,American Beauty,1999,Drama
+68,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,War|Comedy
+69,Spider-Man: Into the Spider-Verse,2018,Adventure|Action|Animation
+70,The Dark Knight Rises,2012,Drama|Action
+71,Oldeuboi,2003,Mystery|Drama|Action
+72,Joker,2019,Thriller|Drama|Crime
+73,Amadeus,1984,Music|Drama|Biography
+74,Braveheart,1995,History|Drama|Biography
+75,Toy Story,1995,Comedy|Adventure|Animation
+76,Coco,2017,Comedy|Adventure|Animation
+77,Das Boot,1981,War|Drama
+78,Inglourious Basterds,2009,War|Drama|Adventure
+79,Mononoke-hime,1997,Fantasy|Adventure|Animation
+80,Avengers: Endgame,2019,Drama|Adventure|Action
+81,Once Upon a Time in America,1984,Drama|Crime
+82,Good Will Hunting,1997,Romance|Drama
+83,Toy Story 3,2010,Comedy|Adventure|Animation
+84,Requiem for a Dream,2000,Drama
+85,Kimi no na wa.,2016,Fantasy|Drama|Animation
+86,Singin' in the Rain,1952,Romance|Musical|Comedy
+87,3 Idiots,2009,Drama|Comedy
+88,Star Wars: Episode VI - Return of the Jedi,1983,Fantasy|Adventure|Action
+89,2001: A Space Odyssey,1968,Sci-Fi|Adventure
+90,Eternal Sunshine of the Spotless Mind,2004,Sci-Fi|Romance|Drama
+91,Reservoir Dogs,1992,Thriller|Drama|Crime
+92,Tengoku to jigoku,1963,Mystery|Drama|Crime
+93,Capharnam,2018,Drama
+94,Citizen Kane,1941,Mystery|Drama
+95,Lawrence of Arabia,1962,Drama|Biography|Adventure
+96,Jagten,2012,Drama
+97,M - Eine Stadt sucht einen Mrder,1931,Thriller|Mystery|Crime
+98,North by Northwest,1959,Mystery|Adventure|Action
+99,Vertigo,1958,Thriller|Romance|Mystery
+100,Le fabuleux destin d'Amlie Poulain,2001,Romance|Comedy
+101,Idi i smotri,1985,War|Thriller|Drama
+102,A Clockwork Orange,1971,Sci-Fi|Crime
+103,Full Metal Jacket,1987,War|Drama
+104,Double Indemnity,1944,Film-Noir|Drama|Crime
+105,The Apartment,1960,Romance|Drama|Comedy
+106,Scarface,1983,Drama|Crime
+107,Ikiru,1952,Drama
+108,The Sting,1973,Drama|Crime|Comedy
+109,To Kill a Mockingbird,1962,Drama|Crime
+110,Taxi Driver,1976,Drama|Crime
+111,Up,2009,Comedy|Adventure|Animation
+112,L.A. Confidential,1997,Mystery|Drama|Crime
+113,Heat,1995,Drama|Crime|Action
+114,Metropolis,1927,Sci-Fi|Drama
+115,Jodaeiye Nader az Simin,2011,Drama
+116,Die Hard,1988,Thriller|Action
+117,Snatch,2000,Crime|Comedy
+118,Incendies,2010,Mystery|Drama
+119,Hamilton,2020,History|Drama|Biography
+120,Ladri di biciclette,1948,Drama
+121,Indiana Jones and the Last Crusade,1989,Adventure|Action
+122,1917,2019,War|Drama|Action
+123,Taare Zameen Par,2007,Family|Drama
+124,Der Untergang,2004,History|Drama|Biography
+125,Per qualche dollaro in pi,1965,Western
+126,Batman Begins,2005,Drama|Crime|Action
+127,Spider-Man: No Way Home,2021,Fantasy|Adventure|Action
+128,Dangal,2016,Drama|Biography|Action
+129,The Kid,1921,Family|Drama|Comedy
+130,Some Like It Hot,1959,Romance|Music|Comedy
+131,All About Eve,1950,Drama
+132,The Father,2020,Mystery|Drama
+133,Green Book,2018,Drama|Comedy|Biography
+134,The Wolf of Wall Street,2013,Crime|Comedy|Biography
+135,Judgment at Nuremberg,1961,War|Drama
+136,Ran,1985,War|Drama|Action
+137,Unforgiven,1992,Western|Drama
+138,Casino,1995,Drama|Crime
+139,Pan's Labyrinth,2006,War|Fantasy|Drama
+140,There Will Be Blood,2007,Drama
+141,The Sixth Sense,1999,Thriller|Mystery|Drama
+142,A Beautiful Mind,2001,Drama|Biography
+143,The Truman Show,1998,Drama|Comedy
+144,Monty Python and the Holy Grail,1975,Fantasy|Comedy|Adventure
+145,Yjinb,1961,Thriller|Drama|Action
+146,The Treasure of the Sierra Madre,1948,Western|Drama|Adventure
+147,Shutter Island,2010,Thriller|Mystery
+148,Rashmon,1950,Mystery|Drama|Crime
+149,Jurassic Park,1993,Sci-Fi|Adventure|Action
+150,The Great Escape,1963,History|Drama|Adventure
+151,Kill Bill: Vol. 1,2003,Drama|Crime|Action
+152,Everything Everywhere All at Once,2022,Comedy|Adventure|Action
+153,No Country for Old Men,2007,Thriller|Drama|Crime
+154,Finding Nemo,2003,Comedy|Adventure|Animation
+155,The Elephant Man,1980,Drama|Biography
+156,Chinatown,1974,Thriller|Mystery|Drama
+157,Raging Bull,1980,Sport|Drama|Biography
+158,Gone with the Wind,1939,War|Romance|Drama
+159,V for Vendetta,2006,Sci-Fi|Drama|Action
+160,The Thing,1982,Sci-Fi|Mystery|Horror
+161,Inside Out,2015,Comedy|Adventure|Animation
+162,"Lock, Stock and Two Smoking Barrels",1998,Crime|Comedy|Action
+163,Dial M for Murder,1954,Thriller|Crime
+164,El secreto de sus ojos,2009,Romance|Mystery|Drama
+165,The Bridge on the River Kwai,1957,War|Drama|Adventure
+166,Hauru no ugoku shiro,2004,Family|Adventure|Animation
+167,"Three Billboards Outside Ebbing, Missouri",2017,Drama|Crime|Comedy
+168,Trainspotting,1996,Drama
+169,Warrior,2011,Sport|Drama|Action
+170,Gran Torino,2008,Drama
+171,Fargo,1996,Thriller|Crime
+172,Prisoners,2013,Mystery|Drama|Crime
+173,Tonari no Totoro,1988,Family|Comedy|Animation
+174,Million Dollar Baby,2004,Sport|Drama
+175,The Gold Rush,1925,Drama|Comedy|Adventure
+176,Catch Me If You Can,2002,Drama|Crime|Biography
+177,Blade Runner,1982,Sci-Fi|Drama|Action
+178,On the Waterfront,1954,Thriller|Drama|Crime
+179,The Third Man,1949,Thriller|Mystery|Film-Noir
+180,Bacheha-Ye aseman,1997,Sport|Family|Drama
+181,Ben-Hur,1959,History|Drama|Adventure
+182,The General,1926,Comedy|Adventure|Action
+183,Smultronstllet,1957,Romance|Drama
+184,12 Years a Slave,2013,History|Drama|Biography
+185,Before Sunrise,1995,Romance|Drama
+186,Gone Girl,2014,Thriller|Mystery|Drama
+187,Harry Potter and the Deathly Hallows: Part 2,2011,Mystery|Fantasy|Adventure
+188,The Deer Hunter,1978,War|Drama
+189,In the Name of the Father,1993,Drama|Crime|Biography
+190,The Grand Budapest Hotel,2014,Crime|Comedy|Adventure
+191,Mr. Smith Goes to Washington,1939,Drama|Comedy
+192,Le salaire de la peur,1953,Thriller|Drama|Adventure
+193,Barry Lyndon,1975,War|Drama|Adventure
+194,Sherlock Jr.,1924,Romance|Comedy|Action
+195,Salinui chueok,2003,Mystery|Drama|Crime
+196,Klaus,2019,Comedy|Adventure|Animation
+197,Hacksaw Ridge,2016,History|Drama|Biography
+198,Det sjunde inseglet,1957,Fantasy|Drama
+199,Room,2015,Thriller|Drama
+200,Relatos salvajes,2014,Thriller|Drama|Comedy
+201,The Big Lebowski,1998,Crime|Comedy
+202,Mad Max: Fury Road,2015,Sci-Fi|Adventure|Action
+203,How to Train Your Dragon,2010,Adventure|Action|Animation
+204,Mary and Max.,2009,Drama|Comedy|Animation
+205,"Monsters, Inc.",2001,Comedy|Adventure|Animation
+206,Jaws,1975,Thriller|Adventure
+207,La passion de Jeanne d'Arc,1928,History|Drama|Biography
+208,Tky monogatari,1953,Drama
+209,Dead Poets Society,1989,Drama|Comedy
+210,Hotel Rwanda,2004,History|Drama|Biography
+211,Rocky,1976,Sport|Drama
+212,Pather Panchali,1955,Drama
+213,Platoon,1986,War|Drama
+214,Ford v Ferrari,2019,Drama|Biography|Action
+215,Stand by Me,1986,Drama|Adventure
+216,The Terminator,1984,Sci-Fi|Action
+217,Spotlight,2015,Drama|Crime|Biography
+218,Rush,2013,Drama|Biography|Action
+219,Network,1976,Drama
+220,Into the Wild,2007,Drama|Biography|Adventure
+221,Logan,2017,Sci-Fi|Drama|Action
+222,The Wizard of Oz,1939,Fantasy|Family|Adventure
+223,Ratatouille,2007,Comedy|Adventure|Animation
+224,Groundhog Day,1993,Fantasy|Drama|Comedy
+225,Before Sunset,2004,Romance|Drama
+226,The Exorcist,1973,Horror
+227,The Best Years of Our Lives,1946,War|Romance|Drama
+228,The Incredibles,2004,Adventure|Action|Animation
+229,To Be or Not to Be,1942,War|Romance|Comedy
+230,The Grapes of Wrath,1940,Drama
+231,Rebecca,1940,Mystery|Film-Noir|Drama
+232,La battaglia di Algeri,1966,War|Drama
+233,Hachi: A Dog's Tale,2009,Family|Drama|Biography
+234,Cool Hand Luke,1967,Drama|Crime
+235,Amores perros,2000,Thriller|Drama
+236,Pirates of the Caribbean: The Curse of the Black Pearl,2003,Fantasy|Adventure|Action
+237,La haine,1995,Drama|Crime
+238,Les quatre cents coups,1959,Drama|Crime
+239,Persona,1966,Thriller|Drama
+240,Babam ve Oglum,2005,Family|Drama
+241,It Happened One Night,1934,Romance|Comedy
+242,Life of Brian,1979,Comedy
+243,The Sound of Music,1965,Family|Drama|Biography
+244,Dersu Uzala,1975,Drama|Biography|Adventure
+245,Ah-ga-ssi,2016,Thriller|Romance|Drama
+246,Aladdin,1992,Comedy|Adventure|Animation
+247,Gandhi,1982,Drama|Biography
+248,Jai Bhim,2021,Mystery|Drama|Crime
+249,The Help,2011,Drama
+250,Beauty and the Beast,1991,Fantasy|Family|Animation

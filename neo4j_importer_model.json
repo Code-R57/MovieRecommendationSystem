@@ -1,0 +1,322 @@
+{
+  "version": "0.3.0",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n0",
+        "position": {
+          "x": -6,
+          "y": 0
+        },
+        "caption": "Movie"
+      },
+      {
+        "id": "n1",
+        "position": {
+          "x": 194.5,
+          "y": 0
+        },
+        "caption": "Genre"
+      },
+      {
+        "id": "n2",
+        "position": {
+          "x": -6,
+          "y": 200.5
+        },
+        "caption": "Year"
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n0",
+        "type": "Belongs to",
+        "fromId": "n0",
+        "toId": "n1"
+      },
+      {
+        "id": "n1",
+        "type": "Released in",
+        "fromId": "n0",
+        "toId": "n2"
+      },
+      {
+        "id": "n2",
+        "type": "Similar to",
+        "fromId": "n0",
+        "toId": "n0"
+      }
+    ]
+  },
+  "dataModel": {
+    "fileModel": {
+      "fileSchemas": {
+        "genres.csv": {
+          "expanded": true,
+          "fields": [
+            {
+              "name": "Genre",
+              "type": "string",
+              "sample": "Action",
+              "include": true
+            }
+          ]
+        },
+        "movies.csv": {
+          "expanded": true,
+          "fields": [
+            {
+              "name": "MovieID",
+              "type": "string",
+              "sample": "1",
+              "include": true
+            },
+            {
+              "name": "Title",
+              "type": "string",
+              "sample": "The Shawshank Redemption",
+              "include": true
+            },
+            {
+              "name": "Year",
+              "type": "string",
+              "sample": "1994",
+              "include": true
+            },
+            {
+              "name": "RatingMean",
+              "type": "string",
+              "sample": "9.252275892916423",
+              "include": true
+            }
+          ]
+        },
+        "movies_genres.csv": {
+          "expanded": true,
+          "fields": [
+            {
+              "name": "MovieID",
+              "type": "string",
+              "sample": "1",
+              "include": true
+            },
+            {
+              "name": "Genre",
+              "type": "string",
+              "sample": "Drama",
+              "include": true
+            }
+          ]
+        },
+        "movies_similarity.csv": {
+          "expanded": true,
+          "fields": [
+            {
+              "name": "MovieID",
+              "type": "string",
+              "sample": "1",
+              "include": true
+            },
+            {
+              "name": "SimilarMovieID",
+              "type": "string",
+              "sample": "131",
+              "include": true
+            },
+            {
+              "name": "SimilarityScore",
+              "type": "string",
+              "sample": "0.9999799887802905",
+              "include": true
+            }
+          ]
+        }
+      }
+    },
+    "graphModel": {
+      "nodeSchemas": {
+        "n0": {
+          "label": "Movie",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "MovieID",
+              "type": "integer",
+              "identifier": "VlX9NhMvSrzw9xb6b8Okl"
+            },
+            {
+              "property": "Title",
+              "type": "string",
+              "identifier": "t1bEEjIU5mJoeOUc3OLb9"
+            },
+            {
+              "property": "RatingMean",
+              "type": "float",
+              "identifier": "tOGV5fGksDT7D0eUEkzsu"
+            }
+          ],
+          "key": {
+            "properties": [
+              "VlX9NhMvSrzw9xb6b8Okl"
+            ],
+            "name": ""
+          }
+        },
+        "n1": {
+          "label": "Genre",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "Genre",
+              "type": "string",
+              "identifier": "SPJftP-QQlB4jktUIAcVS"
+            }
+          ],
+          "key": {
+            "properties": [
+              "SPJftP-QQlB4jktUIAcVS"
+            ],
+            "name": ""
+          }
+        },
+        "n2": {
+          "label": "Year",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "Year",
+              "type": "integer",
+              "identifier": "OZUm90FDLEYNKVvngG0uS"
+            }
+          ],
+          "key": {
+            "properties": [
+              "OZUm90FDLEYNKVvngG0uS"
+            ],
+            "name": ""
+          }
+        }
+      },
+      "relationshipSchemas": {
+        "n0": {
+          "type": "Belongs to",
+          "sourceNodeSchema": "n0",
+          "targetNodeSchema": "n1",
+          "properties": []
+        },
+        "n1": {
+          "type": "Released in",
+          "sourceNodeSchema": "n0",
+          "targetNodeSchema": "n2",
+          "properties": []
+        },
+        "n2": {
+          "type": "Similar to",
+          "sourceNodeSchema": "n0",
+          "targetNodeSchema": "n0",
+          "properties": [
+            {
+              "property": "SimilarityScore",
+              "type": "float",
+              "identifier": "WgN88YE9rsCSz31FYoXmR"
+            }
+          ]
+        }
+      }
+    },
+    "mappingModel": {
+      "nodeMappings": {
+        "n0": {
+          "nodeSchema": "n0",
+          "fileSchema": "movies.csv",
+          "mappings": [
+            {
+              "field": "MovieID"
+            },
+            {
+              "field": "Title"
+            },
+            {
+              "field": "RatingMean"
+            }
+          ]
+        },
+        "n1": {
+          "nodeSchema": "n1",
+          "fileSchema": "genres.csv",
+          "mappings": [
+            {
+              "field": "Genre"
+            }
+          ]
+        },
+        "n2": {
+          "nodeSchema": "n2",
+          "fileSchema": "movies.csv",
+          "mappings": [
+            {
+              "field": "Year"
+            }
+          ]
+        }
+      },
+      "relationshipMappings": {
+        "n0": {
+          "relationshipSchema": "n0",
+          "mappings": [],
+          "sourceMappings": [
+            {
+              "field": "MovieID"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "Genre"
+            }
+          ],
+          "fileSchema": "movies_genres.csv"
+        },
+        "n1": {
+          "relationshipSchema": "n1",
+          "mappings": [],
+          "sourceMappings": [
+            {
+              "field": "MovieID"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "Year"
+            }
+          ],
+          "fileSchema": "movies.csv"
+        },
+        "n2": {
+          "relationshipSchema": "n2",
+          "mappings": [
+            {
+              "field": "SimilarityScore"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "MovieID"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "SimilarMovieID"
+            }
+          ],
+          "fileSchema": "movies_similarity.csv"
+        }
+      }
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}
