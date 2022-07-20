@@ -75,3 +75,9 @@ The motive of the project is to scrape information of movies from **[IMDb](https
 - **[Neo4j Cypher query language Documentation](https://neo4j.com/docs/cypher-manual/current/)**
 - **[freeCodeCamp.org - Tkinter Course](https://www.youtube.com/watch?v=YXPyB4XeYLA)**  
 and many more Articles, Documentations, Repositories and Videos.
+
+## Contributors
+
+- **[Ritvik](https://github.com/Code-R57)**
+- **[Darshan Chandak](https://github.com/DarshanChandak)**
+- **[Devangi Sharma](https://github.com/devangi2001)**
